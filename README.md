@@ -68,7 +68,7 @@ The following code is an easy example of inserting and searching key-value pairs
 #include <iostream>
 #include <poplar.hpp>
 
-int main() {
+int main(void) {
   std::vector<std::string> keys = {"Aoba", "Yun",    "Hajime", "Hihumi", "Kou",
                                    "Rin",  "Hazuki", "Umiko",  "Nene"};
   const auto num_keys = static_cast<int>(keys.size());
